@@ -31,7 +31,7 @@ function agregarCurso(e) {
   }
 }
 
-// Lee los datos del curso
+// Lee los datos del curso // funcion + objeto
 function leerDatosCurso(curso) {
   const infoCurso = {
     imagen: curso.querySelector("img").src,
